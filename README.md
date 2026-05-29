@@ -18,16 +18,16 @@ flowchart TD
 
         %% Stripe Flow
         C1 --> D1["Connect via OAuth\n(Alertbox.org gets only acct_xxxxxx)"]
-        D1 --> E1["Streamer manually adds Webhook in their Stripe Dashboard\n→ Target: https://alertbox.org/webhook/stripe"]
+        D1 --> E1["Streamer manually adds Webhook in their Stripe Dashboard\n→ Target: https://alertbox.org/v1/webhook/stripe"]
         E1 --> F1["Provide Secret"]
 
         %% BMC & Ko-fi
         C2 --> D2["Provide Page URL"]
-        D2 --> E2["Streamer sets Webhook in BuyMeACoffee\n→ Target: https://alertbox.org/webhook/buymeacoffee"]
+        D2 --> E2["Streamer sets Webhook in BuyMeACoffee\n→ Target: https://alertbox.org/v1/webhook/buymeacoffee"]
         E2 --> F2["Provide Verification token"]
 
         C3 --> D3["Provide Page URL"]
-        D3 --> E3["Streamer sets Webhook in Ko-fi\n→ Target: https://alertbox.org/webhook/kofi"]
+        D3 --> E3["Streamer sets Webhook in Ko-fi\n→ Target: https://alertbox.org/v1/webhook/kofi"]
         E3 --> F3["Provide Secret"]
 
         %% Donor Flow
