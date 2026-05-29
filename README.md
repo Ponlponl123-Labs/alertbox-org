@@ -4,10 +4,6 @@
 
 A **privacy-first, multi-platform** donation + alert system for streamers (.org project)
 
----
-
-### 1. Streamer Onboarding Flow
-
 ```mermaid
 flowchart TD
     subgraph "Alertbox.org - Privacy-First Donation Platform (.org)"
