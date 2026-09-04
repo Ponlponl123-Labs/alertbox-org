@@ -286,4 +286,4 @@ Endpoint: `WS /v1/widget/:token` or `GET /v1/widget/:token/settings`
 
 ## License
 
-All Alertbox.org projects are open-source under the [MIT License](https://opensource.org/licenses/MIT).
+All Alertbox.org projects are licensed under the [Ponlponl123 Labs License (MIT)](LICENSE).
